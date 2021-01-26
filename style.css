@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+  
+}
+.main-div{
+    width: 1050px;
+    margin: auto;
+    margin-top: 23px;
+}
+.header-manu{
+
+}
+.header-manu ul{
+    background-color: black;
+    /*! padding: 10px; */
+}
+.header-manu ul li {
+	display: inline-block;
+	padding: 23px;
+}
+.header-manu ul li a{
+    color: white;
+}
+.content-part{
+    background-color: rgb(214, 214, 214);
+    /*! padding: 18px; */
+}
+.content-part h3 {
+	font-size: 23px;
+	padding: 31px;
+}
+/*img-part*/
+.main-div2{
+    background-image: url(./photo-1499951360447-b19be8fe80f5.jpg);
+    position: relative;
+  height: 500px;
+    
+}
+
+.sab-div1{}
+.sab-div1 {
+	background-color: #000;
+	display: inline-block;
+	padding: 44px 28px;
+	margin-top: 20px;
+	position: absolute;
+	height: 32%;
+	width: 19%;
+	top: 100px;
+	left: 109px;
+}
+.sab-div1 ul li {
+	color: white;
+	display: list-item;
+	font-size: 34px;
+    /* padding: 6px; */
+    list-style: none;
+   
+}
+ 
+.sab-div1 ul li::before{
+    content: "\f6af";
+	font-family: "font awesome 5 Brands";
+	font-weight: 600;
+	color: aqua;
+	font-size: 15px;
+	margin-right: 12px;
+}
+/*sab-div2*/
+.sab-div2 {
+	background-color: #000;
+	display: inline-block;
+	padding: 44px 28px;
+	margin-top: 20px;
+	position: absolute;
+	height: 32%;
+	width: 19%;
+	top: 100px;
+	left: 417px;
+}
+ 
+.sab-div2 ul li {
+    color: white;
+	display: list-item;
+	font-size: 34px;
+    /* padding: 6px; */
+    list-style: none;
+}
+.sab-div2 ul li::before{
+    content: "\f185";
+	font-family: "font awesome 5 Free";
+	font-weight: 600;
+	color: aqua;
+	font-size: 15px;
+	margin-right: 12px;
+}
+.sab-div2 ul li::after {
+	content: "\f185";
+	font-family: "font awesome 5 Free";
+	font-weight: 500;
+	color: aqua;
+	font-size: 15px;
+	margin-right: 20px;
+	/* left: 16px; */
+	margin-left: 15px;
+}
+/*sab-div3*/
+.sab-div3{
+    background-color: #000;
+	display: inline-block;
+	padding: 44px 28px;
+	margin-top: 20px;
+	position: absolute;
+	height: 32%;
+	width: 19%;
+	top: 100px;
+	left: 717px;
+}
+
+.sab-div3 ul li {
+	color: white;
+	display: list-item;
+	font-size: 34px;
+    /* padding: 6px; */
+    list-style: none;
+}
+.sab-div3 ul li::before{
+    /* content: "\f5ae"; */
+    content: "\f5ad";
+	font-family: "font awesome 5 Free";
+	font-weight: 600;
+	color: aqua;
+	font-size: 15px;
+	margin-right: 12px;
+}
+/*Footer-part*/
+.icon{
+	background-color: #000;
+ 
+}
+.icon p {
+	color: white;
+	text-align: center;
+	padding: 12px;
+	margin-top: -23px;
+	font-size: 22px;
+}
+.icon ul {
+  text-align: center;
+  padding: 19px;
+}
+
+.icon ul li{
+	display: inline-block;
+}
+
+.icon ul li a {
+  background: cornflowerblue;
+  color: black;
+  border-radius: 50%;
+  /* padding: 4px 10px; */
+  margin-left: 11px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  line-height: 50px;
+}
+.icon ul li a:hover{
+  background-color: rgb(27, 221, 235);
+}
